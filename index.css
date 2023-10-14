@@ -1,4 +1,80 @@
 html, body {
     margin: 0;
     padding: 0;
+    background: #1B1924;
+    color:#fff;
+    text-align: center;
+    font-family: sans-serif;
+    user-select: none;
+
+}
+/* main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} */
+.main-img{
+    margin: 50px 0 0 0  ;
+    max-width: 200px;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#endorsement-field{
+    width: 400px;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    background-color: #625b7d;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    resize: none;
+
+}
+.input-field{
+    margin: 10px 5px;
+    width: 190px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #625b7d;
+    color: #fff;
+    text-align: center;
+}
+#btn{
+    min-width: 400px;
+    padding: 20px;
+    background-color: rgb(0, 119, 255);
+    color: rgb(32, 32, 32);
+    border: none;
+    border-radius: 1rem;
+    font-size: large;
+    font-weight: 800;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: turquoise;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+}
+ul li{
+    width: 400px;
+    /* min-width: 400px; */
+    list-style: none;
+    text-align:start;
+    background-color: #fff;
+    color: #1B1924;
+    padding: 20px;
+    margin: 10px;
+    
 }

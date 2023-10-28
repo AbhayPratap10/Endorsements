@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
--[screenshot](#screenshot)
+- [screenshot](#screenshot)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)

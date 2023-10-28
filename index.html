@@ -2,29 +2,27 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1 ">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <title>We are the Champions</title>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <main>
-            <img src="assets/freddie.png" class="main-img" alt="A person standing with one hand up in the sky">
-             <h1 class="title">We are the Champions</h1>
-            <div class="input">
-                <textarea id="endorsement-field" placeholder="Write your endorsements here..."></textarea>
-                <div>
-                    <input  id="from-el"type="text" name="from" class="input-field" placeholder="From">
-                    <input  id="to-el"type="text" name="to" class="input-field" placeholder="To">
-                </div>
-                <button id="btn">Publish</button>
-            </div>
-            <h3>-Endorsements-</h3>
-            <div class="endorsements">
-                <ul id="endorsement-list">
-
-                </ul>
-            </div>
-
+            <img src="assets/freddie.png" alt="logo of the site">
+            <h1 class="title">We are the Champions</h1>
+            <textarea id="input-Endorsement-el" placeholder="Write your endoresement here...."></textarea>
+            <!-- <div class="from-to-section">      
+                <input type="text" name="From-input" id="from-Input-el" class="from-to-input" placeholder="From">
+                <input type="text" name="To-input" id="to-Input-el" class="from-to-input" placeholder="To">
+            </div> -->
+            <button id="btn-el">Publish</button>
+            <h3 class="sub-heading">- Endorsements -</h3>
+            <ul id="endorsements-list">
+                <!-- endorsements -->
+            </ul>
         </main>
         <script src="index.js" type="module"></script>
     </body>

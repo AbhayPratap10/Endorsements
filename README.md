@@ -1,21 +1,38 @@
-# cy4kJ2Td
+# We are the Champions
 
-Quick start:
+![Project Preview](assets/freddie.png)
 
-```
-$ npm install
-$ npm start
-````
+"We are the Champions" is a simple web application that allows users to share endorsements. It's a basic project to showcase how to integrate Firebase with HTML, CSS, and JavaScript.
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## Table of Contents
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+-[screenshot](#screenshot)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## screenshot
 
-Happy Coding!
+![Screenshot](assets/homescreen.png)
+
+## Features
+
+- Users can add endorsements with a text message.
+- Endorsements are displayed in a list.
+- Endorsements can be removed by double-clicking them.
+- Real-time updates using Firebase.
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+- Web browser (Google Chrome, Mozilla Firefox, etc.)
+- Firebase account and Firebase Realtime Database setup (update your Firebase configuration in `script.js`).
+
+## Usage
+
+- Enter your endorsement in the textarea and click the "Publish" button to add it to the list.
+- Double-click an endorsement to remove it.
+

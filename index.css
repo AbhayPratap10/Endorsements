@@ -1,80 +1,81 @@
-html, body {
+body{
     margin: 0;
-    padding: 0;
-    background: #1B1924;
-    color:#fff;
-    text-align: center;
-    font-family: sans-serif;
+    background: #0f002c;
+    color: #fff;
     user-select: none;
-
 }
-/* main{
+main{
+    max-width: 320px;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
 
-} */
-.main-img{
-    margin: 50px 0 0 0  ;
-    max-width: 200px;
-    
 }
-.input{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+.title{
+    color:#fff;
+    font-size: 29px;
+    font-weight: 700;
 }
-#endorsement-field{
-    width: 400px;
-    height: 150px;
-    border: none;
-    border-radius: 12px;
-    background-color: #625b7d;
-    color: #fff;
-    font-size: 14px;
-    padding: 10px;
+img{
+    width: 100px;
+    margin: 5px auto;
+}
+#input-Endorsement-el{
+    margin: 10px 0px;
     resize: none;
+    min-height: 8rem;
+    padding: 10px;
+    border-radius: 7px;
 
 }
-.input-field{
-    margin: 10px 5px;
-    width: 190px;
-    height: 50px;
-    border: none;
-    border-radius: 10px;
-    background-color: #625b7d;
-    color: #fff;
-    text-align: center;
-}
-#btn{
-    min-width: 400px;
-    padding: 20px;
-    background-color: rgb(0, 119, 255);
-    color: rgb(32, 32, 32);
-    border: none;
-    border-radius: 1rem;
-    font-size: large;
-    font-weight: 800;
-}
-#btn:hover{
-    cursor: pointer;
-    background-color: turquoise;
-}
-ul{
+/* .from-to-section{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0%;
+    justify-content: space-between;
+}
+.from-to-input{
+    max-width: 100px;
+    padding: 10px 25px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+} */
+#btn-el{
+    background: rgb(24, 175, 235);
+    color: rgb(0, 0, 70);
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 18px 0px;
+    border: none;
+    border-radius: 7px;
+}
+#btn-el:hover{
+    cursor: pointer;
+    background: rgb(1, 135, 188); ;
+}
+.sub-heading{
+    margin: 15px auto;
+    color: #fff;
+}
+ul{ 
+    width: 320px;
+    margin: 5px -40px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 ul li{
-    width: 400px;
-    /* min-width: 400px; */
-    list-style: none;
-    text-align:start;
-    background-color: #fff;
-    color: #1B1924;
+    color: #000000;
+    margin: 10px auto;
     padding: 20px;
-    margin: 10px;
-    
+    background-color: #fff;
+    border: #fff solid 2px;
+    list-style: none;
+    font-family: 'Inter' ;
+    font-size: 12px;
+}
+
+p{
+    margin: 0;
+    font-size: small;
 }
